@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">T-Weather</string>
+
+    <!--api code condition-->
+    <string name="thunder_storm_200">thunderstorm with light rain</string>
+    <string name="thunder_storm_201">thunderstorm with rain</string>
+    <string name="thunder_storm_202">thunderstorm with heavy rain</string>
+    <string name="thunder_storm_210">light thunderstorm</string>
+    <string name="thunder_storm_211">thunderstorm</string>
+    <string name="thunder_storm_212">heavy thunderstorm</string>
+    <string name="thunder_storm_221">ragged thunderstorm</string>
+    <string name="thunder_storm_230">thunderstorm with light drizzle</string>
+    <string name="thunder_storm_231">thunderstorm with drizzle</string>
+    <string name="thunder_storm_232">thunderstorm with heavy drizzle</string>
+
+    <string name="drizzle_300">light intensity drizzle</string>
+    <string name="drizzle_301">drizzle</string>
+    <string name="drizzle_302">heavy intensity drizzle</string>
+    <string name="drizzle_310">	light intensity drizzle rain</string>
+    <string name="drizzle_311">drizzle rain</string>
+    <string name="drizzle_312">heavy intensity drizzle rain</string>
+    <string name="drizzle_313">shower rain and drizzle</string>
+    <string name="drizzle_314">heavy shower rain and drizzle</string>
+    <string name="drizzle_321">shower drizzle</string>
+
+    <string name="rain_500">light rain</string>
+    <string name="rain_501">moderate rain</string>
+    <string name="rain_502">heavy intensity rain</string>
+    <string name="rain_503">very heavy rain</string>
+    <string name="rain_504">extreme rain</string>
+    <string name="rain_511">freezing rain</string>
+    <string name="rain_520">light intensity shower rain</string>
+    <string name="rain_521">shower rain</string>
+    <string name="rain_522">heavy intensity shower rain</string>
+    <string name="rain_531">ragged shower rain</string>
+
+
+    <string name="snow_600">light snow</string>
+    <string name="snow_601">snow</string>
+    <string name="snow_602">heavy snow</string>
+    <string name="snow_611">sleet</string>
+    <string name="snow_612">shower sleet</string>
+    <string name="snow_615">light rain and snow</string>
+    <string name="snow_616">rain and snow</string>
+    <string name="snow_620">light shower snow</string>
+    <string name="snow_621">shower snow</string>
+    <string name="snow_622">heavy shower snow</string>
+
+    <string name="atmosphere_701">mist</string>
+    <string name="atmosphere_711">smoke</string>
+    <string name="atmosphere_721">haze</string>
+    <string name="atmosphere_731">sand, dust whirls</string>
+    <string name="atmosphere_741">fog</string>
+    <string name="atmosphere_751">sand</string>
+    <string name="atmosphere_761">dust</string>
+    <string name="atmosphere_762">volcanic ash</string>
+    <string name="atmosphere_771">squalls</string>
+    <string name="atmosphere_781">tornado</string>
+
+    <string name="clear_800">clear sky</string>
+
+    <string name="clouds_801">few clouds</string>
+    <string name="clouds_802">scattered clouds</string>
+    <string name="clouds_803">broken clouds</string>
+    <string name="clouds_804">overcast clouds</string>
+
+    <string name="extreme_900">tornado</string>
+    <string name="extreme_901">tropical storm</string>
+    <string name="extreme_902">hurricane</string>
+    <string name="extreme_903">cold</string>
+    <string name="extreme_904">hot</string>
+    <string name="extreme_905">windy</string>
+    <string name="extreme_906">hail</string>
+
+    <string name="additional_951">calm</string>
+    <string name="additional_952">light breeze</string>
+    <string name="additional_953">gentle breeze</string>
+    <string name="additional_954">moderate breeze</string>
+    <string name="additional_955">fresh breeze</string>
+    <string name="additional_956">strong breeze</string>
+    <string name="additional_957">high wind, near gale</string>
+    <string name="additional_958">gale</string>
+    <string name="additional_959">severe gale</string>
+    <string name="additional_960">storm</string>
+    <string name="additional_961">violent storm</string>
+    <string name="additional_962">hurricane</string>
+</resources>
