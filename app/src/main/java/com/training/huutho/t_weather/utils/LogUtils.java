@@ -13,16 +13,7 @@ public class LogUtils {
 
     public static void showLog(String msg) {
         if (AppConfig.DEBUG) {
-
-            StackTraceElement element = new Exception().getStackTrace()[1];
-
-            StringBuilder builder = new StringBuilder();
-            builder.append(TAG);
-            builder.append(element.getClassName());
-            builder.append(element.getMethodName());
-            builder.append(element.getLineNumber());
-            builder.append("----->");
-            Log.e(builder.toString(), msg);
+            Log.e("NguyenHuuTho", msg);
         }
     }
 }

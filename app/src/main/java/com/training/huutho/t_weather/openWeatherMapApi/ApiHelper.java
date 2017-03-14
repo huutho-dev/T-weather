@@ -8,8 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class ApiHelper {
-    public static Retrofit getRetrofit(){
-        return  new Retrofit.Builder()
+    public static Retrofit getRetrofit() {
+        return new Retrofit.Builder()
                 .baseUrl(ApiConfig.API_BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();

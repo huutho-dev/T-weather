@@ -15,242 +15,243 @@ public class ConditionsUtils {
 
             //Group 2xx: Thunderstorm
             case 200:
-                context.getResources().getString(R.string.thunder_storm_200);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_200));
+
             case 201:
-                context.getResources().getString(R.string.thunder_storm_201);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_201));
+
             case 202:
-                context.getResources().getString(R.string.thunder_storm_202);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_202));
+
             case 210:
-                context.getResources().getString(R.string.thunder_storm_210);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_210));
+
             case 211:
-                context.getResources().getString(R.string.thunder_storm_211);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_211));
+
             case 212:
-                context.getResources().getString(R.string.thunder_storm_212);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_212));
+
             case 221:
-                context.getResources().getString(R.string.thunder_storm_221);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_221));
+
             case 230:
-                context.getResources().getString(R.string.thunder_storm_230);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_230));
+
             case 231:
-                context.getResources().getString(R.string.thunder_storm_231);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_231));
+
             case 232:
-                context.getResources().getString(R.string.thunder_storm_232);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.thunder_storm_232));
+
 
             //Group 3xx: Drizzle
             case 300:
-                context.getResources().getString(R.string.drizzle_300);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_300));
+
             case 301:
-                context.getResources().getString(R.string.drizzle_301);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_301));
+
             case 302:
-                context.getResources().getString(R.string.drizzle_302);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_302));
+
             case 310:
-                context.getResources().getString(R.string.drizzle_310);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_310));
+
             case 311:
-                context.getResources().getString(R.string.drizzle_311);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_311));
+
             case 312:
-                context.getResources().getString(R.string.drizzle_312);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_312));
+
             case 313:
-                context.getResources().getString(R.string.drizzle_313);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_313));
+
             case 314:
-                context.getResources().getString(R.string.drizzle_314);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_314));
+
             case 321:
-                context.getResources().getString(R.string.drizzle_321);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.drizzle_321));
+
 
             //Group 5xx: Rain
             case 500:
-                context.getResources().getString(R.string.rain_500);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_500));
+
             case 501:
-                context.getResources().getString(R.string.rain_501);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_501));
+
             case 502:
-                context.getResources().getString(R.string.rain_502);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_502));
+
             case 503:
-                context.getResources().getString(R.string.rain_503);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_503));
+
             case 504:
-                context.getResources().getString(R.string.rain_504);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_504));
+
             case 511:
-                context.getResources().getString(R.string.rain_511);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_511));
+
             case 520:
-                context.getResources().getString(R.string.rain_520);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_520));
+
             case 521:
-                context.getResources().getString(R.string.rain_521);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_521));
+
             case 522:
-                context.getResources().getString(R.string.rain_522);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_522));
+
             case 531:
-                context.getResources().getString(R.string.rain_531);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.rain_531));
+
 
             //Group 6xx: Snow
             case 600:
-                context.getResources().getString(R.string.snow_600);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_600));
+
             case 601:
-                context.getResources().getString(R.string.snow_601);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_601));
+
             case 602:
-                context.getResources().getString(R.string.snow_602);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_602));
+
             case 611:
-                context.getResources().getString(R.string.snow_611);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_611));
+
             case 612:
-                context.getResources().getString(R.string.snow_612);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_612));
+
             case 615:
-                context.getResources().getString(R.string.snow_615);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_615));
+
             case 616:
-                context.getResources().getString(R.string.snow_616);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_616));
+
             case 620:
-                context.getResources().getString(R.string.snow_620);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_620));
+
             case 621:
-                context.getResources().getString(R.string.snow_621);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_621));
+
             case 622:
-                context.getResources().getString(R.string.snow_622);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.snow_622));
+
 
             //Group 7xx: Atmosphere
             case 701:
-                context.getResources().getString(R.string.atmosphere_701);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_701));
+
             case 711:
-                context.getResources().getString(R.string.atmosphere_711);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_711));
+
             case 721:
-                context.getResources().getString(R.string.atmosphere_721);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_721));
+
             case 731:
-                context.getResources().getString(R.string.atmosphere_731);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_731));
+
             case 741:
-                context.getResources().getString(R.string.atmosphere_741);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_741));
+
             case 751:
-                context.getResources().getString(R.string.atmosphere_751);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_751));
+
             case 761:
-                context.getResources().getString(R.string.atmosphere_761);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_761));
+
             case 762:
-                context.getResources().getString(R.string.atmosphere_762);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_762));
+
             case 771:
-                context.getResources().getString(R.string.atmosphere_771);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_771));
+
             case 781:
-                context.getResources().getString(R.string.atmosphere_781);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.atmosphere_781));
+
 
             //Group 800: Clear
             case 800:
-                context.getResources().getString(R.string.clear_800);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.clear_800));
+
 
             // Group 80x: Clouds
             case 801:
-                context.getResources().getString(R.string.clouds_801);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.clouds_801));
+
             case 802:
-                context.getResources().getString(R.string.clouds_802);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.clouds_802));
+
             case 803:
-                context.getResources().getString(R.string.clouds_803);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.clouds_803));
+
             case 804:
-                context.getResources().getString(R.string.clouds_804);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.clouds_804));
+
 
             //Group 90x: Extreme
             case 900:
-                context.getResources().getString(R.string.extreme_900);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.extreme_900));
+
             case 901:
-                context.getResources().getString(R.string.extreme_901);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.extreme_901));
+
             case 902:
-                context.getResources().getString(R.string.extreme_902);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.extreme_902));
+
             case 903:
-                context.getResources().getString(R.string.extreme_903);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.extreme_903));
+
             case 904:
-                context.getResources().getString(R.string.extreme_904);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.extreme_904));
+
             case 905:
-                context.getResources().getString(R.string.extreme_905);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.extreme_905));
+
             case 906:
-                context.getResources().getString(R.string.extreme_906);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.extreme_906));
+
 
             //Group 9xx: Additional
             case 951:
-                context.getResources().getString(R.string.additional_951);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_951));
+
             case 952:
-                context.getResources().getString(R.string.additional_952);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_952));
+
             case 953:
-                context.getResources().getString(R.string.additional_953);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_953));
+
             case 954:
-                context.getResources().getString(R.string.additional_954);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_954));
+
             case 955:
-                context.getResources().getString(R.string.additional_955);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_955));
+
             case 956:
-                context.getResources().getString(R.string.additional_956);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_956));
+
             case 957:
-                context.getResources().getString(R.string.additional_957);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_957));
+
             case 958:
-                context.getResources().getString(R.string.additional_958);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_958));
+
             case 959:
-                context.getResources().getString(R.string.additional_959);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_959));
+
             case 960:
-                context.getResources().getString(R.string.additional_960);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_960));
+
             case 961:
-                context.getResources().getString(R.string.additional_961);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_961));
+
             case 962:
-                context.getResources().getString(R.string.additional_962);
-                break;
+                return StringUtils.upperFirstChar(context.getResources().getString(R.string.additional_962));
+
+            default:
+                return StringUtils.upperFirstChar("unknow");
 
         }
-        return status;
     }
 }
