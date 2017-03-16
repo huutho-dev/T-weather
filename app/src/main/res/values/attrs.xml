@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeRefreshWeather">
+        <attr name="thonh_setImage" format="reference"/>
+        <attr name="thonh_rotate_duration" format="integer"/>
+        <attr name="thonh_from_degree" format="float"/>
+        <attr name="thonh_to_degree" format="float"/>
+    </declare-styleable>
+</resources>

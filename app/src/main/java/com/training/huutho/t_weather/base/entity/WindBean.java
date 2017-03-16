@@ -11,7 +11,7 @@ import com.google.gson.annotations.SerializedName;
 public class WindBean extends BaseEntity {
     @SerializedName("speed")
     public double speed;
-    @SerializedName("speed")
+    @SerializedName("deg")
     public double deg;
 
     @Override

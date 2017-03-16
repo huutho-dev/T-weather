@@ -1,20 +1,18 @@
 package com.training.huutho.t_weather.ui.view.activity;
 
-import android.widget.TextView;
+import android.widget.ImageView;
 
+import com.squareup.picasso.Picasso;
 import com.training.huutho.t_weather.R;
 import com.training.huutho.t_weather.base.activity.BaseActivity;
 import com.training.huutho.t_weather.ui.contracts.MainContracts;
-import com.training.huutho.t_weather.ui.entity.CurrentWeatherEntity;
 import com.training.huutho.t_weather.ui.presenter.MainPresenters;
-import com.training.huutho.t_weather.utils.ConditionsUtils;
-import com.training.huutho.t_weather.utils.LogUtils;
 
 import retrofit2.Response;
 
 public class MainActivity extends BaseActivity<MainPresenters, MainContracts.MainView> implements MainContracts.MainView {
 
-    private TextView mTextView;
+    ImageView imageView;
 
     @Override
     public int setLayoutId() {
@@ -22,8 +20,17 @@ public class MainActivity extends BaseActivity<MainPresenters, MainContracts.Mai
     }
 
     @Override
-    public void setBindView() {
-        mTextView = (TextView) findViewById(R.id.textview);
+    public void initUI() {
+        imageView = (ImageView) findViewById(R.id.image);
+
+        Picasso.with(this).load(R.drawable.rain).into(imageView);
+
+    }
+
+    @Override
+    protected void initEvent() {
+
+
     }
 
     @Override
@@ -38,12 +45,7 @@ public class MainActivity extends BaseActivity<MainPresenters, MainContracts.Mai
 
     @Override
     public void onResponse(Response response) {
-        if (response.body() instanceof CurrentWeatherEntity) {
-            CurrentWeatherEntity weather = (CurrentWeatherEntity) response.body();
-            int conditionCode = weather.weather.get(0).id;
-            String currentWeather = ConditionsUtils.getStatusWeather(this, conditionCode);
-            LogUtils.showLog(currentWeather);
-        }
+
     }
 
     @Override

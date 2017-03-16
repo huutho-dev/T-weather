@@ -29,10 +29,12 @@ public abstract class BaseActivity<PRESENTERS extends BasePresenters, VIEW exten
         mPresenter = setPresenter((VIEW) this);
         mHandler = new Handler();
         setContentView(mRootView);
-        setBindView();
-
+        initUI();
+        initEvent();
         onActivityCreated();
     }
+
+
 
 
     @Override
@@ -66,7 +68,9 @@ public abstract class BaseActivity<PRESENTERS extends BasePresenters, VIEW exten
 
     public abstract int setLayoutId();
 
-    public abstract void setBindView();
+    public abstract void initUI();
+
+    protected abstract void initEvent();
 
     public abstract PRESENTERS setPresenter(VIEW view);
 
